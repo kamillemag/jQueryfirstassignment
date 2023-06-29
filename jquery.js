@@ -1,7 +1,6 @@
 
 $(document).ready(function(){
     console.log("Let's get ready to party with jQuery!")
-});
 
 $("article img").addClass("image-center");
 
@@ -23,3 +22,5 @@ $(".form-control").on('keyup blur change', function(){
 $("img").on('click', function(e){
     $(e.target).remove();
 });
+
+ });
